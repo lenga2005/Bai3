@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Đảm bảo khoảng cách giữa h1 và p */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0; /* Bỏ margin để h1 không có khoảng cách */
+}
+
+p {
+    font-size: 24px;
+    margin: 0; /* Bỏ margin để p không có khoảng cách */
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 20%; /* Độ rộng cột */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    display: flex; /* Để căn chỉnh ảnh và văn bản */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+img {
+    width: 20px; /* Kích thước của ảnh */
+    height: 20px; /* Kích thước của ảnh */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+/* Thêm Flexbox cho cột bên trong để căn chỉnh tiêu đề và danh sách */
+.column p {
+    display: flex; /* Để căn chỉnh theo hàng */
+    justify-content: space-between; /* Đảm bảo khoảng cách giữa các tiêu đề */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.column ul {
+    display: flex; /* Căn chỉnh các mục trong cột */
+    flex-direction: column; /* Đặt theo chiều dọc */
+}
