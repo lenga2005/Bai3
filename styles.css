@@ -12,18 +12,18 @@ body {
 
 .header {
     display: flex;
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: space-between; /* Đảm bảo khoảng cách giữa h1 và p */
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 h1 {
     font-size: 36px;
-    margin: 0; /* Bỏ margin để h1 không có khoảng cách */
+    margin: 0;
 }
 
 p {
     font-size: 24px;
-    margin: 0; /* Bỏ margin để p không có khoảng cách */
+    margin: 0; 
 }
 
 select {
@@ -37,7 +37,7 @@ select {
 }
 
 .column {
-    width: 20%; /* Độ rộng cột */
+    width: 20%; 
     box-sizing: border-box;
     padding: 10px;
 }
@@ -49,24 +49,23 @@ ul {
 
 li {
     margin-bottom: 8px;
-    display: flex; /* Để căn chỉnh ảnh và văn bản */
-    align-items: center; /* Căn giữa theo chiều dọc */
+    display: flex;
+    align-items: center; 
 }
 
 img {
-    width: 20px; /* Kích thước của ảnh */
-    height: 20px; /* Kích thước của ảnh */
-    margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
 }
 
-/* Thêm Flexbox cho cột bên trong để căn chỉnh tiêu đề và danh sách */
 .column p {
-    display: flex; /* Để căn chỉnh theo hàng */
-    justify-content: space-between; /* Đảm bảo khoảng cách giữa các tiêu đề */
-    align-items: center; /* Căn giữa theo chiều dọc */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .column ul {
-    display: flex; /* Căn chỉnh các mục trong cột */
-    flex-direction: column; /* Đặt theo chiều dọc */
+    display: flex;
+    flex-direction: column; 
 }
